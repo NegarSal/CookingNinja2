@@ -60,6 +60,7 @@ export default function Create() {
             <button onClick={handleAdd} className='btn'>add</button>
           </div>
         </label>
+        <p>Current ingredients: {ingredients.map(i => <em key={i}>{i}, </em>)}</p>
         <label>
           <span>cooking time (minutes):</span>
           <input
