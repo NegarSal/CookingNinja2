@@ -42,17 +42,17 @@ export const useFetch = (url, method = "GET") => {
       }
     }
 
-    if(method === "GET") {
+    if (method === "GET") {
       fetchData()
     }
-    if(method === "POST" && options){
+    if (method === "POST" && options) {
       fetchData(options)
     }
     return () => {
       controller.abort()
     }
 
-  }, [url ,options ,method])
+  }, [url, options, method])
 
   return { data, isPending, error, postData }
 }
