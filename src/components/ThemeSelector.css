@@ -5,6 +5,7 @@
     max-width: 1200px;
     margin: 20px auto;
 }
+
 .theme-buttons div {
     display: inline-block;
     width: 20px;
@@ -12,4 +13,14 @@
     cursor: pointer;
     margin-left: 15px;
     border-radius: 50%;
+}
+
+.mode-toggle {
+    margin-right: auto;
+}
+
+.mode-toggle img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
 }
